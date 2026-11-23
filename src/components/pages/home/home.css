@@ -1,0 +1,51 @@
+.home {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  gap: 40px;
+  background: #f3f4f6;
+}
+
+.home-content {
+  max-width: 500px;
+}
+
+.home-content h1 {
+  font-size: 45px;
+  color: #111827;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.home-content p {
+  font-size: 18px;
+  color: #6b7280;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.shop-btn {
+  display: inline-block;
+  background: #0284c7;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.shop-btn:hover {
+  background: #0369a1;
+  transform: translateY(-3px);
+}
+
+.home-image img {
+  width: 450px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px #0002;
+}
+
