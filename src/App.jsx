@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer.jsx'
 import Home from './components/pages/home/Home.jsx' 
 import About from './components/pages/about/About.jsx'
 import Products from './components/pages/products/Products.jsx'
+import NotFound from './components/pages/notFound/NotFound.jsx'
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<Products />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         
 
